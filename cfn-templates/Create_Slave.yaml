@@ -24,7 +24,7 @@ Resources:
       SecurityGroupIds:
       -                         !Ref HDFSSecurityGroup
       ImageId:                  !Ref HDFSImage
-      InstanceType:             m4.large
+      InstanceType:             d3en.6xlarge
       KeyName:                  !Ref KeyName
       BlockDeviceMappings:
       - DeviceName:             "/dev/sda1"
